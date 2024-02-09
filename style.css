@@ -31,9 +31,10 @@
     margin: 0px 400px 0px 50px;
 }
 
-.three-space {
+.three-space  {
     padding: 25px 30px 0px 10px;
     color: black;
+    text-decoration: wavy;
 }
 
 .last-links {
