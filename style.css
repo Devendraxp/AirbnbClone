@@ -28,6 +28,7 @@
 
 .logo {
     width: 150px;
+    height: 70PX;
     margin: 0px 400px 0px 50px;
 }
 
@@ -118,4 +119,53 @@
   }
   .menu-bar{
     background-color: aqua;
+  }
+
+  /* scr baar */
+
+  .scr_bar {
+    display: flex;
+    height: 70PX;
+  }
+  .scr_icons
+  { margin-top: 10px;
+    display: flex;
+    position: absolute;
+    left: 30PX;
+  }
+  img
+  {
+    height: 30px;
+    width: 30px;
+  }
+  .img{
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: smaller;
+    padding: 5px 10px;
+  }
+  .rArrow {
+margin-top: 10px;
+margin-left: 5px;
+  }
+  .filterBtn
+  {
+    height: 50px;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0.5px solid rgb(34, 34, 34);
+  }
+  .cstmz
+  {
+    height: 50px;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0.5px solid rgb(34, 34, 34);
   }
