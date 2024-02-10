@@ -1,171 +1,223 @@
 * {
-    font-family: "inherit", sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: "inherit", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 #topline {
-    height: 64px;
-    width: auto;
-    background-color: rgb(237, 237, 237);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 64px;
+  width: auto;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .topLineText {
-    color: black;
-    padding-left: 28px;
-    font-weight: 550;
-    font-style: bold;
+  color: black;
+  padding-left: 28px;
+  font-weight: 550;
+  font-style: bold;
 }
 
 
 .nav-border {
-    border: 1px solid rgb(221, 220, 220);
-    padding: 0px 0px 20px 0px;
+  border: 1px solid rgb(221, 220, 220);
+  padding: 0px 0px 20px 0px;
 }
 
 .logo {
-    width: 150px;
-    height: 70PX;
-    margin: 0px 400px 0px 50px;
+  width: 150px;
+  height: 70PX;
+  margin: 0px 400px 0px 50px;
 }
 
 .three-space  {
-    padding: 25px 30px 0px 10px;
-    color: black;
-    text-decoration: wavy;
+  padding: 25px 30px 0px 10px;
+  color: black;
+  text-decoration: wavy;
 }
 
 .last-links {
-    margin: 22px 0px 0px 200px;
+  margin: 22px 0px 0px 200px;
 }
 
 .link-space {
-    padding: 0px 20px;
+padding: 0px 20px;
+margin: 1px;
 }
+.tag{
+border-width: 1px;
+border-radius: 25px;
+border-color: #a5a5a5;
+width: 90px;
 
+}
+.button:hover{
+box-shadow: #d3d3d3 0.5px 0.5px 1px 1px;
+}
+.button{
+background-color: white;
+border-width: 0px;
+transform: translateY(-10px);
+border-radius: 25px;
+}
+.link-space-b{
+padding: 0px 10px;
+margin: 1px;
+}
+.button-b{
+background-color: white;
+border-width: 2pxpx;
+transform: translateY(-10px);
+}
+.button-b:hover{
+  box-shadow: #d3d3d3 0.5px 0.5px 1px 1px;
+}
+.button-b a{
+font-size: 30px;
+}
+.icon-space{
+  padding: 10px 15px 10px 0px;
+
+}
 .search-bar {
-    width: 850px;
-    border-radius: 50px;
-    height: 68px;
-    padding: 13px 10px 15px 22px;
-    border: 1px solid rgb(221, 220, 220);
-    box-shadow: 3px 3px 10px rgb(221, 220, 220);
+  width: 850px;
+  border-radius: 50px;
+  height: 68px;
+  padding: 13px 10px 15px 22px;
+  border: 1px solid rgb(221, 220, 220);
+  box-shadow: 3px 3px 10px rgb(221, 220, 220);
 }
 
 .left-bar {
-    margin: 0px 145px 0px 10px;
-    background-color: white;
+  margin: 0px 145px 0px 10px;
+  background-color: white;
 }
 
 .left-2 {
-    margin: 0px 75px 0px 0px;
-    border-left: 1px solid rgb(221, 220, 220);
-    padding: 0px 2px 0px 20px;
-  
+  margin: 0px 75px 0px 0px;
+  border-left: 1px solid rgb(221, 220, 220);
+  padding: 0px 2px 0px 20px;
+
 }
 
 .right-2 {
-    margin: 0px 60px 0px 0px;
-    border-left: 1px solid rgb(221, 220, 220);
-    padding: 0px 18px;
+  margin: 0px 60px 0px 0px;
+  border-left: 1px solid rgb(221, 220, 220);
+  padding: 0px 18px;
 }
 
 .right-bar {
-    margin: 0px 105px 0px 0px;
-    border-left: 1px solid rgb(221, 220, 220);
-    padding: 0px 6px;
+  margin: 0px 105px 0px 0px;
+  border-left: 1px solid rgb(221, 220, 220);
+  padding: 0px 6px;
 }
 
 .nav-font-head {
-    margin: 0px;
-    font-size: small;
-    font-weight: bold;
-    color: black;
+  margin: 0px;
+  font-size: small;
+  font-weight: bold;
+  color: black;
 }
 
 .nav-font-para {
-    margin: 0px;
-    font-size: small;
-    color: grey;
+  margin: 0px;
+  font-size: small;
+  color: grey;
 }
 
 .icon-bar {
-    width: 43px;
-    height: 43px;
-    background-color: rgb(251, 92, 92);
-    overflow: inherit;
-    border-radius: 22px;
-  }
-  
-  .icon-bar a {
-    float: left;
-    width: 100;
-    text-align: center;
-    padding: 10px 15px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 15px;
-  }
-  
-  .icon-bar a:hover {
-    background-color: rgb(231, 72, 72);
-    width: 43px;
-    border-radius: 22px;
-    height: 43px;
-    color: white;
-  }
-  .menu-bar{
-    background-color: aqua;
-  }
+  width: 43px;
+  height: 43px;
+  background-color: rgb(251, 92, 92);
+  overflow: inherit;
+  border-radius: 22px;
+}
 
-  /* scr baar */
+.icon-bar a {
+  float: left;
+  width: 100;
+  text-align: center;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
 
-  .scr_bar {
-    display: flex;
-    height: 70PX;
-  }
-  .scr_icons
-  { margin-top: 10px;
-    display: flex;
-    position: absolute;
-    left: 30PX;
-  }
-  img
-  {
-    height: 30px;
-    width: 30px;
-  }
-  .img{
-    height: 50px;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: smaller;
-    padding: 5px 10px;
-  }
-  .rArrow {
-margin-top: 10px;
-margin-left: 5px;
-  }
-  .filterBtn
-  {
-    height: 50px;
-    width: 100px;
-    margin-left: 30px;
-    border-radius: 5px;
-    background-color: white;
-    border: 0.5px solid rgb(34, 34, 34);
-  }
-  .cstmz
-  {
-    height: 50px;
-    width: 300px;
-    margin-left: 30px;
-    border-radius: 5px;
-    background-color: white;
-    border: 0.5px solid rgb(34, 34, 34);
-  }
+.icon-bar a:hover {
+  background-color: rgb(231, 72, 72);
+  width: 43px;
+  border-radius: 22px;
+  height: 43px;
+  color: white;
+}
+.menu-bar{
+  background-color: aqua;
+}
+
+/* scr baar */
+
+.scr_bar {
+  display: flex;
+  height: 70PX;
+}
+.scr_icons
+{ margin-top: 10px;
+  display: flex;
+  position: absolute;
+  left: 30PX;
+}
+img
+{
+  height: 30px;
+  width: 30px;
+}
+.img{
+  height: 50px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: smaller;
+  padding: 5px 10px;
+}
+.rArrow {
+margin: 10px 20px;  }
+.fav-btn
+{
+  width: 93px;
+height: 50px;
+overflow: inherit;
+border-radius: 10px;
+background-color: white;
+border: 0.5px solid rgb(34, 34, 34);
+padding: 8px;
+}
+.fav-btn a
+{
+  float: left;
+  text-align: center;
+  padding: 0px 8px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 16px;
+}
+.fav-btn:hover {
+  width: 93px;
+  border-radius: 10px;
+  height: 50px;
+  box-shadow: #d3d3d3 0.5px 0.5px 1px 1px;
+}
+.cstmz
+{
+  height: 50px;
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 5px;
+  background-color: white;
+  border: 0.5px solid rgb(34, 34, 34);
+}
+.cstmz:hover{
+  box-shadow: #d3d3d3 0.5px 0.5px 1px 1px;
+}
